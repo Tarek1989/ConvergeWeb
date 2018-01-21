@@ -1,0 +1,267 @@
+﻿
+@*Must be Ienumerable <Namespace.Class> when looping*@
+@model IEnumerable<ConvergeDB.Product>
+
+
+<style>
+    table,th,td{
+        border: 1px solid;
+        width:300px;
+        height:50px;
+    }
+
+    @* nth-child(even) means for every even row to the below*@
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+
+<style>
+    .header {
+        font: 500;
+        text-align: center;
+        vertical-align: top;
+        width: 1160px;
+        float: right;
+        background-color: #ecebec
+    }
+</style>
+
+<style>
+    .navbar {
+        background-color: #433f47;
+        width: 200px; /*We give width so it determiens width of sidebar*/
+        position: fixed;
+        height: 100%; /*The reason why we add % is for it to include 100% of height. You can customize it with px*/
+        border:solid;
+        border-width:thin;
+    }
+
+   
+</style>
+
+@*Ul style*@
+<style>
+    .removebulletpoints {
+        list-style-type: none;
+        padding-left: 0px;
+        margin-top: 79.88px;
+    }
+</style>
+
+
+@*Individual Li elements0*@
+<style>
+
+    /*Home link*/
+    .Home {
+        font-size: x-large;
+        font-variant: small-caps;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-top: 6px;
+        border-top-style: solid;
+        border-top-color: #28252a;
+        border-bottom-style: solid;
+        border-width: thin;
+        border-bottom-color: #28252a;
+    }
+
+    .Home a{
+        text-decoration:none; /*Important note. Even though we use html.actionlink for navigation it still treats it as <a href>. Thats why we add the letter a */
+        color: #F1EFEB;
+        
+    }
+
+    .Home:hover {
+        background-color:#2e2c31;
+        padding-left:65px;  
+    }
+
+    /*Add link*/
+    .Add {
+        font-size: x-large;
+        font-variant: small-caps;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        border-bottom-style: solid;
+        border-width: thin;
+        border-bottom-color: #28252a;
+    }
+
+    .Add a {
+        text-decoration-line: none;
+        color: #F1EFEB;
+    }
+
+    .Add:hover {
+        background-color:#2e2c31;
+        padding-left:70px;
+    }
+
+    /*Remove link*/
+    .Remove {
+        font-size: x-large;
+        font-variant: small-caps;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        border-bottom-style: solid;
+        border-width: thin;
+        border-bottom-color: #28252a;
+    }
+
+    .Remove a {
+        text-decoration-line: none;
+        color: #F1EFEB;
+    }
+
+    .Remove:hover {
+         background-color:#2e2c31;
+        padding-left:55px;
+    }
+
+    /*Update Link*/
+
+    .Update {
+        font-size: x-large;
+        font-variant: small-caps;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        border-bottom-style: solid;
+        border-width: thin;
+        border-bottom-color: #28252a;
+    }
+
+    .Update a{
+        text-decoration-line:none;
+        color: #F1EFEB;
+    }
+
+    .Update:hover {
+        background-color:#2e2c31;
+        padding-left:55px;
+    }
+
+    /*Graph*/
+    .Graph {
+        font-size: x-large;
+        font-variant: small-caps;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        border-bottom-style: solid;
+        border-width: thin;
+        border-bottom-color: #28252a;
+    }
+
+    .Graph a{
+        text-decoration-line:none;
+        color: #F1EFEB;
+    }
+
+    .Graph:hover {
+         background-color:#2e2c31; 
+         padding-left:60px;
+
+    }
+</style>
+
+<style>
+    .image {
+       /* -webkit-filter: grayscale(100%); Use of filer if you want for image */
+        position: absolute;
+        top: 0px;
+        height: 79.88px;
+        left:42px;
+    }
+</style>
+
+
+<!DOCTYPE html>
+<html>
+    <head >
+        <title>Products</title>
+    </head>
+
+    <body style="margin:0;">
+        <div >
+
+            <header class="header">
+                <h1>Products</h1>
+            </header>
+
+            
+                <nav class="navbar">
+                    @*Probably for a side nav with list-like related actionlink the best method is ul/il
+                    ul = unordered bullet list
+                    il = list items*@
+                    <ul class="removebulletpoints">
+
+                        <li class="Home">
+                            @Html.ActionLink("Home", "Home")
+                        </li>
+                        <li class="Add">
+                            @Html.ActionLink("Add", "Add")
+                        </li>
+                        <li class="Remove">
+                            @Html.ActionLink("Remove", "Remove")
+                        </li>
+                        <li class="Update">
+                            @Html.ActionLink("Update", "Update")
+                        </li>
+                        <li class="Graph">
+                            @Html.ActionLink("Graph", "Graph")
+                        </li>
+                    </ul>
+
+                    <img class="image" src="../Converge.png"/> <!--Important to add  ../filename.extension . Additionally ideally have your file in web folder-->
+                    
+                </nav>
+           
+            </div>
+
+        <div style="position:relative; bottom:200px;">
+            <table align="center">
+                @*Creates table and aligns it center*@
+                <tr>
+                    @*table row*@
+                    <th>
+                        @*Table header*@
+                        @Html.DisplayNameFor(Model => Model.Nodes)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(Model => Model.Repeaters)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(Model => Model.Hubs)
+                    </th>
+                </tr>
+
+                @foreach (var i in Model)
+
+            {
+                    <tr>
+                        <td>
+                            @*Adds to cell data*@
+                            @Html.DisplayFor(Model => i.Nodes)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(Model => i.Repeaters)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(Model => i.Hubs)
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+            
+       
+        
+    </body>
+
+</html>
+    
+
+
+

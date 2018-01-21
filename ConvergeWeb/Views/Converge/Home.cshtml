@@ -1,0 +1,42 @@
+﻿
+<style>
+    .HomePage {
+        background: #332D39;
+        color: azure;
+        
+    }
+</style>
+
+<style>
+    .ShowData{
+        text-align:center;
+        border:solid;
+    }
+</style>
+
+<script>
+    var a = document.getElementById("Tarek");
+    a.parentNode.removeChild(a);
+   
+       @*a.style.display = "none";
+       Above is a Javascript script that finds the id Tarek (equals to navbar) and removes it for the purposes of this page
+       Two ways of doing it *@
+</script>
+
+
+<body>
+    <div>
+        <h1 class="HomePage"> Wecome to Converge</h1>
+    </div>
+
+    <div class="ShowData">
+        <h1>Show Data</h1>
+        <button>@Html.ActionLink("Click", "Contact")</button>
+    </div>
+</body>
+
+
+
+
+
+

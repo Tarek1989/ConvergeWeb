@@ -1,0 +1,11 @@
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeDB\bin\Debug\ConvergeDB.dll.config
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeDB\bin\Debug\ConvergeDB.dll
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeDB\bin\Debug\ConvergeDB.pdb
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeDB\bin\Debug\EntityFramework.dll
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeDB\bin\Debug\EntityFramework.xml
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeDB\obj\Debug\ConvergeDB.dll
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeDB\obj\Debug\ConvergeDB.pdb
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeDB\obj\Debug\ConvergeDB.Migrations.First.resources
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeDB\obj\Debug\ConvergeDB.csproj.GenerateResource.Cache

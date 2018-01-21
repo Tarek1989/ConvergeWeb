@@ -1,0 +1,16 @@
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeTest\bin\Debug\ConvergeTest.exe.config
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeTest\bin\Debug\ConvergeTest.exe
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeTest\bin\Debug\ConvergeTest.pdb
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeTest\bin\Debug\ConvergeDB.dll
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeTest\bin\Debug\ConvergeRepo.dll
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeTest\bin\Debug\EntityFramework.dll
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeTest\bin\Debug\ConvergeDB.pdb
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeTest\bin\Debug\ConvergeDB.dll.config
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeTest\bin\Debug\ConvergeRepo.pdb
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeTest\bin\Debug\ConvergeRepo.dll.config
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeTest\bin\Debug\EntityFramework.xml
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeTest\obj\Debug\ConvergeTest.csprojResolveAssemblyReference.cache
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeTest\obj\Debug\ConvergeTest.exe
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeTest\obj\Debug\ConvergeTest.pdb
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tarek_Akkawi\Desktop\C#\PersonalProjects\ConvergeWeb\ConvergeTest\bin\Debug\EntityFramework.SqlServer.xml
